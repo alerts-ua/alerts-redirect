@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <title>Карта повітряних тривог України</title>
+    <link rel="canonical" href="https://alerts.in.ua/">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Сайт призначений для перегляду повітряних тривог за областями та районами України.">
+    <meta name="author" content="Ukrzen Team">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="assets/favicon.png">
+    <link rel="apple-touch-icon" type="image/png" href="assets/icon-256x256.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#202124">
+    <meta name="apple-mobile-web-app-title" content="Карта тривог">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="assets/icon-512x512.png">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Карта повітряних тривог України">
+    <meta property="og:description" content="Сайт призначений для перегляду повітряних тривог за областями та районами України.">
+    <meta property="og:url" content="https://alerts.in.ua/">
+    <meta name="image" property="og:image" content="https://alerts.in.ua/assets/cover.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="700">
+    <meta property="og:site_name" content="Карта повітряних тривог України">
+    <meta name="twitter:title" content="Карта повітряних тривог України">
+    <meta name="twitter:description" content="Сайт призначений для перегляду повітряних тривог за областями та районами України.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://alerts.in.ua/assets/cover.jpg">
+    <meta name="twitter:site" content="https://alerts.in.ua/">
+    <meta http-equiv="refresh" content="0; url=https://alerts.in.ua/" />
+    <style>
+        body {
+            background:#202124;
+            padding:5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width:100vw;
+            height:100vh;
+            overflow: hidden;
+        }
+        a {
+            color: #fff;
+
+
+        }
+        .message {
+            margin-top:50px;
+            color:rgba(255,255,255,0.8);
+            font-family:  "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        }
+        .loader > div {
+            width: 20px;
+            height: 20px;
+            background: #8385aa;
+            border-radius: 50%;
+            margin: 3px;
+            animation: loader 0.6s infinite alternate;
+        }
+
+        .loader > div:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .loader > div:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+        @keyframes loader {
+            to {
+                opacity: 0.1;
+                transform: translate(0, -20px);
+                background: pink;
+            }
+        }
+        .loader {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            left: 0;
+            top: 0;
+
+        }
+    </style>
+</head>
+<body >
+<div class="loader">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<div class="message" >
+
+    Ми переїхали на <a href="https://alerts.in.ua/">https://alerts.in.ua/</a></div>
+</body>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TNT78NZJBK"></script><script>window.dataLayer = window.dataLayer || [];
+
+function gtag() {
+    dataLayer.push(arguments);
+}
+
+gtag('js', new Date());
+
+gtag('config', 'G-TNT78NZJBK');</script>
+</html>
+
